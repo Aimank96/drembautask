@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1006050125101",
+    "firebase_url": "https://interviewquestion-4363b.firebaseio.com",
+    "project_id": "interviewquestion-4363b",
+    "storage_bucket": "interviewquestion-4363b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006050125101:android:399c323cb9eb4f4e971fa4",
+        "android_client_info": {
+          "package_name": "com.example.interviewdrembau"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1006050125101-se943hrjl011dfbq8lj7km6gjosc58eo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPr044efO_lpRZa7jLmqxq2R-IrwBrVwo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1006050125101-se943hrjl011dfbq8lj7km6gjosc58eo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

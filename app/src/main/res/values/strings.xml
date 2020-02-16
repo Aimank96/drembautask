@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">InterviewDrembau</string>
+    <string name="facebook_app_id">238092673868460</string>
+    <string name="fb_login_protocol_scheme">fb238092673868460</string>
+
+    <string-array
+        name="generated_name">
+        <item>Maura</item>
+        <item>Domonique</item>
+        <item>Terese</item>
+        <item>Beatrice</item>
+        <item>Marivel</item>
+        <item>Candelaria</item>
+        <item>Buster</item>
+        <item>Carline</item>
+        <item>Jacqualine</item>
+        <item>Belen</item>
+        <item>Linette</item>
+        <item>Eusebia</item>
+        <item>Willena</item>
+        <item>Garnett</item>
+        <item>Kourtney</item>
+        <item>Larita</item>
+        <item>Jeanine</item>
+        <item>Flora</item>
+        <item>Huey</item>
+        <item>Duane</item>
+        <item>Karmen</item>
+        <item>Vicenta</item>
+        <item>Kelli</item>
+        <item>Sirena</item>
+        <item>Rebbecca</item>
+        <item>Tish</item>
+        <item>Stefany</item>
+        <item>Desiree</item>
+        <item>Jude</item>
+        <item>Latasha</item>
+        <item>Kyong</item>
+        <item>Ivy</item>
+        <item>Lynna</item>
+        <item>Jeanice</item>
+        <item>Agripina</item>
+        <item>Peggie</item>
+        <item>Domingo</item>
+        <item>Shemika</item>
+        <item>Charles</item>
+        <item>Leonila</item>
+        <item>Elma</item>
+        <item>Lionel</item>
+        <item>Ernesto</item>
+        <item>Hyman</item>
+        <item>Lorrie</item>
+        <item>Jamar</item>
+        <item>Zina</item>
+        <item>Lamar</item>
+        <item>Elidia</item>
+        <item>Agnus</item>
+
+    </string-array>
+</resources>
