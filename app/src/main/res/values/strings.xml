@@ -3,8 +3,7 @@
     <string name="facebook_app_id">238092673868460</string>
     <string name="fb_login_protocol_scheme">fb238092673868460</string>
 
-    <string-array
-        name="generated_name">
+    <string-array name="generated_name">
         <item>Maura</item>
         <item>Domonique</item>
         <item>Terese</item>

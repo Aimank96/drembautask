@@ -1,16 +1,17 @@
 package com.example.interviewdrembau;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.databinding.DataBindingUtil;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.databinding.DataBindingUtil;
+
 import com.example.interviewdrembau.databinding.ActivityMainBinding;
+import com.example.interviewdrembau.people.PeopleActivity;
 import com.facebook.AccessToken;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
@@ -86,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void startUserActivity() {
-        Intent intent = new Intent(this, UserActivity.class);
+        Intent intent = new Intent(this, PeopleActivity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
         startActivity(intent);
     }

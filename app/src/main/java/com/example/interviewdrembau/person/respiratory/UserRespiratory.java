@@ -79,7 +79,7 @@ public class UserRespiratory {
     }
 
     public void addPerson(Person person) {
-        Log.d(TAG, "addPerson: " + myRef);
+        Log.d(TAG, "addPeople: " + myRef);
         myRef.child(person.getId()).setValue(person);
     }
 

@@ -24,7 +24,7 @@
 
             <include
                 android:id="@+id/container"
-                layout="@layout/layout_person"
+                layout="@layout/layout_people"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -32,11 +32,11 @@
                 android:layout_marginEnd="16dp" />
 
             <Button
-                android:id="@+id/btn_edit_person"
+                android:id="@+id/btn_add_people"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="32dp"
-                android:text="Edit people" />
+                android:text="Add people" />
 
             <Button
                 android:id="@+id/btn_cancel"

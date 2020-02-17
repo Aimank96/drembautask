@@ -18,13 +18,13 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="32dp"
                 android:layout_marginBottom="16dp"
-                android:text="Add favorite people"
+                android:text="Add favorite person"
                 android:textColor="@color/black"
                 android:textSize="18sp" />
 
             <include
                 android:id="@+id/container"
-                layout="@layout/layout_person"
+                layout="@layout/layout_people"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -32,11 +32,11 @@
                 android:layout_marginEnd="16dp" />
 
             <Button
-                android:id="@+id/btn_edit_person"
+                android:id="@+id/btn_edit_people"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="32dp"
-                android:text="Edit people" />
+                android:text="Edit person" />
 
             <Button
                 android:id="@+id/btn_cancel"
