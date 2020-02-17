@@ -1,13 +1,4 @@
-package com.example.interviewdrembau;
-
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.databinding.DataBindingUtil;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProvider;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
+package com.example.interviewdrembau.person;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -17,14 +8,19 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.databinding.DataBindingUtil;
+import androidx.lifecycle.Observer;
+import androidx.lifecycle.ViewModelProvider;
+import androidx.recyclerview.widget.LinearLayoutManager;
+
+import com.example.interviewdrembau.Constants;
+import com.example.interviewdrembau.R;
 import com.example.interviewdrembau.databinding.ActivityUserBinding;
-import com.example.interviewdrembau.person.AddPersonActivity;
-import com.example.interviewdrembau.person.EditPersonActivity;
-import com.example.interviewdrembau.person.FavoritePersonAdapter;
 import com.example.interviewdrembau.person.model.Person;
 import com.example.interviewdrembau.person.viewmodel.UserViewModel;
-import com.facebook.login.LoginManager;
-import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.List;
 import java.util.Random;
@@ -37,7 +33,6 @@ public class UserActivity extends AppCompatActivity {
     private String TAG = UserActivity.class.getSimpleName();
 
 
-    private RecyclerView rvFavouritePerson;
     private FavoritePersonAdapter favoritePersonAdapter;
 
     private final int ADD_PERSON_REQUEST_CODE = 1001;
@@ -68,7 +63,6 @@ public class UserActivity extends AppCompatActivity {
         userViewModel.getPersonList();
 
 
-        rvFavouritePerson = binding.rvFavoritePerson;
         favoritePersonAdapter = new FavoritePersonAdapter();
         binding.rvFavoritePerson.setLayoutManager(new LinearLayoutManager(this));
         binding.rvFavoritePerson.setAdapter(favoritePersonAdapter);

@@ -11,12 +11,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".person.EditPersonActivity"></activity>
+        <activity android:name=".people.AddPeopleActivity"></activity>
+        <activity android:name=".people.EditPeopleActivity" />
+        <activity android:name=".people.PeopleActivity" />
+        <activity android:name=".person.EditPersonActivity" />
         <activity android:name=".person.AddPersonActivity" />
-        <activity android:name=".UserActivity" />
-        <meta-data android:name="com.facebook.sdk.AutoLogAppEventsEnabled"
-            android:value="true"/>
+        <activity android:name=".person.UserActivity" />
 
+        <meta-data
+            android:name="com.facebook.sdk.AutoLogAppEventsEnabled"
+            android:value="true" />
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
